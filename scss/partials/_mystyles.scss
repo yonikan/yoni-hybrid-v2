@@ -1,0 +1,78 @@
+// sdsdd
+
+
+/*my background*/
+// @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 119.9dppx)
+// header {
+//     background: #102129 url('../img/header.jpg') no-repeat top center;
+//     background-size: cover;
+// }
+
+
+/*NAVIGATION*/
+#nav li a {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+     -webkit-font-smoothing: antialiased;
+     font-size: 16px;
+}
+
+#menu-bar-fixed {
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    background-color: rgb(213, 224, 227);
+    border-bottom: #e9f0f2 solid 4px;
+}
+
+
+
+/*INTRO CYRCYES*/
+.circle-icon-lg {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #f56857;
+    position: relative;
+}
+
+.circle-icon-lg:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    background-color: #f56857;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transition-property: top, bottom, left, right;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: top, bottom, left, right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+/* icons to orangee ttt */ 
+#detailed .icon {
+    color: #f56857;
+}
+
+
+
+/*section contact*/
+#contact {
+    background: url(../img/cloud-bg.png) top center no-repeat #eef1f2;
+}
