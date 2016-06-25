@@ -1,0 +1,26 @@
+
+/**********************
+******11. Newsletter****
+**********************/
+#newsletter-form{
+	width: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+#newsletter-form .subscribe-input{
+	float: left;
+	width: 95%;
+	text-align: left;
+}
+#newsletter-form .subscribe-submit{
+	position: absolute;
+	right: 0;
+	padding-left: 28px;
+}
+#newsletter-form .subscribe-submit.btn:hover:before{
+	top: -3px;
+	bottom: -3px;
+	left: -3px;
+	right: -3px;
+}

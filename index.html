@@ -14,7 +14,7 @@
 	<body>
 
 		<!-- HEADER -->
-		<header id="header" >
+		<header id="header" style="height: 200px;">
 			<div id="menu-bar" class="animated fadeIn">
 				<div class="container">
 					<div class="logo">
@@ -23,22 +23,18 @@
 					<nav id="nav" class="nav">
 						<ul class="nav-inner">
 							<li class="current"><a href="#home">Home</a></li>
+							<li class=""><a href="#home">Home</a></li>
 							<li class=""><a href="#about">About</a></li>
 							<li class=""><a href="#features">How to Use It</a></li>
 							<li class=""><a href="#detailed">Screens</a></li>
 							<li class=""><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
-
 				</div>
 			</div>
-			<div class="container">
+			<!-- <div class="container">
 				<div class="row">
-					<div class="col-xs-12">
-						tests
-					</div>
-
-					<!-- <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0 col-md-push-5 col-lg-6 col-lg-push-6 animated fadeInRight">
+					<div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0 col-md-push-5 col-lg-6 col-lg-push-6 animated fadeInRight">
 						<h1>An Unfair Head Start for your <strong>React Native</strong> Apps.</h1>
 						<div id="header-btn">
 							<a class="btn btn-secondary scrollTo-about" style="text-align: center;">
@@ -53,11 +49,10 @@
 					</div>
 					<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0 col-md-pull-7 col-lg-5 col-lg-pull-6 col-lg-offset-1">
 						<img src="./img/iPhone-header.png" id="header-img" class="img-responsive animated fadeInUp" alt="">
-					</div> -->
-
+					</div>
 				</div>
-			</div>
-			<svg id="svg-header" style="transform: rotate(-55deg);">
+			</div> -->
+			<!-- <svg id="svg-header" style="transform: rotate(-55deg);">
 				<defs>
 					<lineargradient id="grad" x1="0%" y1="100%" x2="100%" y2="30%">
 						<stop offset="8%" style="stop-color:rgb(245,104,87);stop-opacity:0.1"></stop>
@@ -65,7 +60,7 @@
 					</lineargradient>
 				</defs>
 				<rect id="svg-rect" width="4062" height="1165.5" fill="url(#grad)"></rect>
-			</svg>
+			</svg> -->
 			<div id="menu-bar-fixed" style="top: -80px; opacity: 0;">
 				<div class="container">
 					<a class="logo scrollTo-header">
@@ -87,6 +82,8 @@
 				</div>
 			</div>
 		</header>
+
+
 
 		<!-- ABOUT -->
 		<section id="about">
@@ -147,6 +144,10 @@
 				</div>
 			</div>
 		</section>
+
+
+
+
 
 		<!-- FEATURES -->
 		<section id="features">
@@ -260,11 +261,13 @@
 						<img src="./img/3iPhones.png" class="img-responsive" alt="">
 					</div>
 				</div>
-			<div></div>
-		</div></section>
+			</div>
+	  </section>
 
-		<!-- CONTACT-->
-		<section id="contact" style="height: 550px;">
+
+
+		<!-- NEWSLETTER-->
+		<section id="newsletter">
 			<div class="container">
 				<div class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
 					<h2>See what we're working on before we release it!</h2>
@@ -275,6 +278,84 @@
 				</div>
 			</div>
 	  </section>
+
+
+
+		<!-- CONTACT-->
+		<!-- <section id="contact">
+			<div class="container">
+				<div class="row wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; height: 400px;">
+
+
+
+					<form id="contact-form" method="post" action="contact.php" role="form">
+
+				    <div class="messages"></div>
+
+				    <div class="controls">
+
+				        <div class="row">
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label for="form_name">Firstname *</label>
+				                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+				                    <div class="help-block with-errors"></div>
+				                </div>
+				            </div>
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label for="form_lastname">Lastname *</label>
+				                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+				                    <div class="help-block with-errors"></div>
+				                </div>
+				            </div>
+				        </div>
+				        <div class="row">
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label for="form_email">Email *</label>
+				                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+				                    <div class="help-block with-errors"></div>
+				                </div>
+				            </div>
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label for="form_phone">Phone</label>
+				                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+				                    <div class="help-block with-errors"></div>
+				                </div>
+				            </div>
+				        </div>
+				        <div class="row">
+				            <div class="col-md-12">
+				                <div class="form-group">
+				                    <label for="form_message">Message *</label>
+				                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+				                    <div class="help-block with-errors"></div>
+				                </div>
+				            </div>
+				            <div class="col-md-12">
+				                <input type="submit" class="btn btn-success btn-send" value="Send message">
+				            </div>
+				        </div>
+				        <div class="row">
+				            <div class="col-md-12">
+				                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+				            </div>
+				        </div>
+				    </div>
+
+	  			</form>
+
+
+
+
+				</div>
+			</div>
+		</section> -->
+
+
+
 
 		<!--FOOTER-->
 		<footer id="footer">

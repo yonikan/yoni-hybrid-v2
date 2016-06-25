@@ -1,0 +1,24 @@
+/**********************
+******6. Detailed Info****
+**********************/
+#detailed{
+	background-color: #e9f0f2;
+	position: relative;
+	z-index: 1;
+}
+#detailed h2{
+	text-align: left;
+}
+#detailed h2:after{
+	margin-left: 0;
+}
+#detailed .subtitle{
+	margin-left: 0;
+	text-align: left;
+}
+#detailed .icon{
+	color: #09b8ed;
+}
+#detailed .img{
+	margin: -210px 0 -50px;
+}
