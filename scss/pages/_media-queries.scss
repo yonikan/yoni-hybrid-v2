@@ -297,7 +297,7 @@
 		margin-bottom: 80px;
 	}
 	header{
-		min-height: 700px;
+		// min-height: 200px;
 	}
 }
 @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 119.9dppx){
@@ -310,8 +310,9 @@
 		background-size: cover;
 	}
 	header{
-		background: $site-orange url('../img/orange-back.jpg') no-repeat top center;
-		background-size: cover;
+		background: $site-blue url("../img/back-blue2.jpg") no-repeat center;
+    background-size: cover;
+    height: 220px;
 	}
 }
 @media (-webkit-min-device-pixel-ratio: 1.1), (min-resolution: 120dppx){

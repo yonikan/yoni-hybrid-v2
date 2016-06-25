@@ -17,20 +17,17 @@
 13. Owl Carousel / .owl-carousel
 14. Media Queries / @media
 -------------------------------------------------------------------*/
- 
+
 // My imports
 @import "partials/vars";
-@import "partials/css";
 
 @import "pages/body";
 @import "pages/buttons";
 @import "pages/menu";
 @import "pages/header";
-@import "pages/about";
-@import "pages/features";
-@import "pages/detailed";
-@import "pages/newsletter";
-
+@import "pages/sections";
 @import "pages/footer";
+
 @import "pages/owl";
 @import "pages/media-queries";
+@import "partials/css";

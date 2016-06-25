@@ -1,0 +1,191 @@
+
+/**********************
+******4. About****
+**********************/
+#about{
+	background-color: #e9f0f2;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.circle-icon-lg{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #09b8ed;
+	position: relative;
+}
+.circle-icon-lg:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+	background-color: #09b8ed;
+	border-radius: 50%;
+	z-index: -1;
+	-webkit-transition-property: top, bottom, left, right;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: top, bottom, left, right;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+.circle-icon-lg:hover:before {
+	top: -5px;
+	bottom: -5px;
+	left: -5px;
+	right: -5px;
+}
+#about .col-lg-3:hover .circle-icon-lg:before {
+	top: -5px;
+	bottom: -5px;
+	left: -5px;
+	right: -5px;
+}
+#about .col-lg-3 .text{
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	top: 0;
+}
+
+#about .col-lg-3:hover .text{
+	top: 5px;
+}
+.circle-icon-lg .icon{
+	color: #fff;
+	line-height: 140px;
+	text-align: center;
+}
+.circle-icon-lg .icon.ion-ios7-speedometer-outline{
+	position: relative;
+	top: -4px;
+}
+#about p{
+	margin-top: 12px;
+}
+
+
+
+/**********************
+******6. Detailed Info****
+**********************/
+#detailed{
+	background-color: #e9f0f2;
+	position: relative;
+	z-index: 1;
+}
+#detailed h2{
+	text-align: left;
+}
+#detailed h2:after{
+	margin-left: 0;
+}
+#detailed .subtitle{
+	margin-left: 0;
+	text-align: left;
+}
+#detailed .icon{
+	color: #09b8ed;
+}
+#detailed .img{
+	margin: -210px 0 -50px;
+}
+
+
+
+/**********************
+******5. Features****
+**********************/
+#features h4{
+	color: #f56857;
+	margin-top: 0;
+}
+#features .col-sm-4.left{
+	text-align: right;
+}
+#features .col-lg-4 .row{
+	margin-top: 46px;
+	position: relative;
+	left: 0;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+#features .left .row:hover{
+	left: -5px;
+}
+#features .right .row:hover{
+	left: 5px;
+}
+.circle-icon-rspv {
+    width:100%;
+}
+.circle-icon-rspv:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    padding-bottom: calc(100% - 4px);
+    border: 2px solid #f56857;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.circle-icon-rspv .icon {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:#f56857;
+    -webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.circle-icon-rspv:hover:after {
+	background-color: #f56857;
+}
+.circle-icon-rspv:hover .icon{
+	color: #fff;
+}
+#features .left > .row:hover .circle-icon-rspv:after, #features .right > .row:hover .circle-icon-rspv:after {
+	background-color: #f56857;
+}
+#features .left > .row:hover .icon, #features .right > .row:hover .icon{
+	color: #fff;
+}
+
+
+
+/**********************
+******11. Newsletter****
+**********************/
+#newsletter-form{
+	width: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+#newsletter-form .subscribe-input{
+	float: left;
+	width: 95%;
+	text-align: left;
+}
+#newsletter-form .subscribe-submit{
+	position: absolute;
+	right: 0;
+	padding-left: 28px;
+}
+#newsletter-form .subscribe-submit.btn:hover:before{
+	top: -3px;
+	bottom: -3px;
+	left: -3px;
+	right: -3px;
+}

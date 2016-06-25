@@ -16,86 +16,6 @@
 13. Owl Carousel / .owl-carousel
 14. Media Queries / @media
 -------------------------------------------------------------------*/
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIFvxabc8-Ua_u_bDyl2V6ao.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
-
-/* cyrillic */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwII_1JgVyIQZ7vlaYT5eo8zo.woff2) format("woff2");
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
-
-/* latin-ext */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIJpID8tihKRMKfpfDQ5OzSE.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-
-/* latin */
-@font-face {
-  font-family: 'Merriweather';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIHM1hBkL4m68a-ReB_y0NYc.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
 body {
   font-family: Lato, sans-serif;
   font-weight: 300;
@@ -358,8 +278,6 @@ input:focus {
 header {
   background-color: #102129;
   background-size: cover;
-  min-height: 568px;
-  max-height: 900px;
   position: relative;
   overflow: hidden; }
 
@@ -463,6 +381,30 @@ div > a.btn:nth-of-type(2) {
   margin-top: 12px; }
 
 /**********************
+******6. Detailed Info****
+**********************/
+#detailed {
+  background-color: #e9f0f2;
+  position: relative;
+  z-index: 1; }
+
+#detailed h2 {
+  text-align: left; }
+
+#detailed h2:after {
+  margin-left: 0; }
+
+#detailed .subtitle {
+  margin-left: 0;
+  text-align: left; }
+
+#detailed .icon {
+  color: #09b8ed; }
+
+#detailed .img {
+  margin: -210px 0 -50px; }
+
+/**********************
 ******5. Features****
 **********************/
 #features h4 {
@@ -524,30 +466,6 @@ div > a.btn:nth-of-type(2) {
 
 #features .left > .row:hover .icon, #features .right > .row:hover .icon {
   color: #fff; }
-
-/**********************
-******6. Detailed Info****
-**********************/
-#detailed {
-  background-color: #e9f0f2;
-  position: relative;
-  z-index: 1; }
-
-#detailed h2 {
-  text-align: left; }
-
-#detailed h2:after {
-  margin-left: 0; }
-
-#detailed .subtitle {
-  margin-left: 0;
-  text-align: left; }
-
-#detailed .icon {
-  color: #09b8ed; }
-
-#detailed .img {
-  margin: -210px 0 -50px; }
 
 /**********************
 ******11. Newsletter****
@@ -859,9 +777,7 @@ footer .copyright {
 
 @media (min-width: 1200px) {
   #menu-bar {
-    margin-bottom: 80px; }
-  header {
-    min-height: 700px; } }
+    margin-bottom: 80px; } }
 
 @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 119.9dppx) {
   .ios .floating-phone {
@@ -871,8 +787,9 @@ footer .copyright {
     background: url(../img/Nexus-5.png) no-repeat;
     background-size: cover; }
   header {
-    background: #f56857 url("../img/orange-back.jpg") no-repeat top center;
-    background-size: cover; } }
+    background: #428bca url("../img/back-blue2.jpg") no-repeat center;
+    background-size: cover;
+    height: 220px; } }
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (min-resolution: 120dppx) {
   .ios .floating-phone {
@@ -889,3 +806,83 @@ footer .copyright {
   header {
     background: #102129 url("../img/header-sm.jpg") no-repeat top center;
     background-size: cover; } }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIFvxabc8-Ua_u_bDyl2V6ao.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwII_1JgVyIQZ7vlaYT5eo8zo.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIJpID8tihKRMKfpfDQ5OzSE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIHM1hBkL4m68a-ReB_y0NYc.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
