@@ -2,11 +2,11 @@
 
 
 /*my background*/
-// @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 119.9dppx)
-// header {
-//     background: #102129 url('../img/header.jpg') no-repeat top center;
-//     background-size: cover;
-// }
+@media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 119.9dppx)
+header {
+    background: #102129 url('../img/orange-back.jpg') no-repeat top center;
+    background-size: cover;
+}
 
 
 /*NAVIGATION*/
@@ -65,7 +65,7 @@
 
 
 
-/* icons to orangee ttt */ 
+/* icons to orangee ttt */
 #detailed .icon {
     color: #f56857;
 }

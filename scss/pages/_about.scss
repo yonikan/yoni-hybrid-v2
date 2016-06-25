@@ -1,0 +1,69 @@
+/**********************
+******4. About****
+**********************/
+#about{
+	background-color: #e9f0f2;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.circle-icon-lg{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #09b8ed;
+	position: relative;
+}
+.circle-icon-lg:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+	right: 1px;
+	background-color: #09b8ed;
+	border-radius: 50%;
+	z-index: -1;
+	-webkit-transition-property: top, bottom, left, right;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-property: top, bottom, left, right;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+.circle-icon-lg:hover:before {
+	top: -5px;
+	bottom: -5px;
+	left: -5px;
+	right: -5px;
+}
+#about .col-lg-3:hover .circle-icon-lg:before {
+	top: -5px;
+	bottom: -5px;
+	left: -5px;
+	right: -5px;
+}
+#about .col-lg-3 .text{
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	top: 0;
+}
+
+#about .col-lg-3:hover .text{
+	top: 5px;
+}
+.circle-icon-lg .icon{
+	color: #fff;
+	line-height: 140px;
+	text-align: center;
+}
+.circle-icon-lg .icon.ion-ios7-speedometer-outline{
+	position: relative;
+	top: -4px;
+}
+#about p{
+	margin-top: 12px;
+}

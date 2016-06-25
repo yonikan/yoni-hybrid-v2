@@ -1,0 +1,19 @@
+/**********************
+******13. Owl Carousel****
+**********************/
+.owl-theme .owl-controls{
+	margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page span{
+	width: 10px;
+	height: 10px;
+	box-shadow: 0 0 0 2px #f56857 inset;
+	opacity: 1;
+	background: transparent;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background-color: #f56857;
+}
+#screens-carousel.owl-carousel .owl-item .item{
+	margin: 0 15px;
+}

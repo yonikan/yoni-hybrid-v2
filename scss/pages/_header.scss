@@ -1,0 +1,43 @@
+
+/**********************
+******3. Header****
+**********************/
+header{
+	background-color: #102129;
+	background-size: cover;
+	min-height: 568px;
+	max-height: 900px;
+	position: relative;
+	overflow: hidden;
+}
+header .container{
+	position: relative;
+	z-index: 3;
+}
+#header-img{
+	margin: 0 auto -400px;
+}
+div > a.btn:nth-of-type(2){
+	margin-left: 30px;
+}
+#triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 900px 600px 0 0;
+	border-color: #f56857 transparent transparent transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#svg-header{
+	position: absolute;
+	top: -150%;
+	left: -50%;
+	width: 200%;
+	height: 300%;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transition: all 1s ease-out;
+}
